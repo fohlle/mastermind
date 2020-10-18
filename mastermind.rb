@@ -1,4 +1,3 @@
-#RGBYWO
 
 class Game
 
@@ -111,18 +110,18 @@ class Game
 
 end
 
-class Player
+#class Player
+#
+#  attr_reader :name
+#
+#  def initialize(name)
+#    @name = name
+#  end
+#end
 
-  attr_reader :name
-
-  def initialize(name)
-    @name = name
-  end
-end
-
-puts "Enter you name:"
-p = gets.chomp
-player = Player.new(p)
-
-g = Game.new(player)
-g.game_loop
+#puts "Enter you name:"
+#p = gets.chomp
+#player = Player.new(p)
+#
+#g = Game.new(player)
+#g.game_loop
